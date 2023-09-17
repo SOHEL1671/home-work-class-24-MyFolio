@@ -1,0 +1,124 @@
+/* Common Css Start */
+:root{
+    --primary-color:#02918c;
+    --secondary-color:#ffffff;
+    --btn-color:#cfc91d;
+    --dark-color:#7e8287;
+}
+h1,h2,h3,h4,h5,h6,
+p,small,ul,ol{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style-type: none;
+}
+a,a:hover{
+    text-decoration:none;
+}
+body,textarea{
+    font-family:'Open Sans', sans-serif;
+}
+/* Common Css End */
+
+/*  Nav Section Start */
+#main-nav{
+    background-color: var(--primary-color);
+  }
+#main-nav #main-menu ul li a{
+    color: var(--light-color);
+    padding: 26px 24.5px;
+    font-size: 12px;
+    font-weight: 800;
+}
+/* Nav Section End */
+
+/* Banner Section Start */
+#banner{
+    position: relative;
+    height: 726px;
+    background-size: cover !important;
+    background-position: center !important;
+    z-index: 1;
+    color: var(--secondary-color);
+}
+#banner::after{
+    position: absolute;
+    content: '';
+    inset: 0;
+    background-color: rgba(0,0,0,0.70);
+    z-index: -1;
+}
+#banner a{
+    font-size: 14px;
+    line-height: 30px;
+    color: #0b1016;
+    background-color:var(--btn-color);
+    padding: 17px 42px;
+    display: inline-block;
+    letter-spacing: 3px;
+    transition: .4s;
+}
+#banner h3{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 25px;
+}
+#banner h1{
+    font-size: 68px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 75px;
+    letter-spacing:30px;
+}
+#banner p{
+    font-size: 18px;
+    list-style: 30px;
+}
+/* Banner Section End */
+/* About Section Start */
+#about{
+    padding: 98px 0;
+}
+#about .section_info{
+    text-align: center;
+    padding: 0 137px;
+    margin-bottom: 80px;
+}
+#about .section_info h2{
+    font-size: 46px;
+    text-transform: uppercase;
+    color: #02918b;
+}
+#about .section_info p{
+    font-size: 16px;
+    line-height: 41px;
+    color:#7e8287;
+}
+#about .section_info p b{
+    font-size: 23px;
+}
+#about .about_item_wrapper .about_item{
+    width: 25%;
+    padding: 36px 65px;
+    text-align: center;
+    color: #7e8287;
+    border-right: 1px solid #d9bdbd;
+}
+#about .about_item_wrapper .about_item:last-child{
+    border-right-color:transparent;
+}
+#about .about_item_wrapper .about_item h3{
+    font-size: 16px;
+    line-height: 23px;
+    padding: 29px 0;
+}
+#about .about_item_wrapper .about_item p{
+    font-size:11px ;
+    line-height: 21px;
+}
+/* About Section End */
+/* Footer Section Start */
+
+/* Footer Section End */
+
